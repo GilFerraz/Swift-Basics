@@ -1,0 +1,38 @@
+
+import UIKit
+
+// 1. Declare a variable called "one" that holds the value.
+//var one : Int = 1
+var one : Float = 1
+
+// 2. Change "one"'s value to 4.
+one = 4
+
+// 3. Change "one"'s value to 1.2 (you might need to change "one"'s declaration first.
+one = 1.2
+
+// 4. Declare a variable called "string" that holds the value "my string".
+var string : String = "my string"
+
+// 5. Print the length of "string".
+print(string.characters.count)
+
+// 6. Print the first character of "string".
+print(string[string.startIndex])
+
+// 7. Print the 4th character in "string".
+print(string[string.index(string.startIndex, offsetBy: 3)])
+
+// 8. Print the first 3 characters in "string".
+print(print(string[string.index(string.startIndex, offsetBy: 0 ..< 3)]))
+
+// 9. Print the last 3 characters in "string".
+
+
+// 10. Print the last 3 characters in "string", reversed.
+
+
+// 11. Print the 2nd word in "string".
+
+
+// 12. Create a string that contains the values of "one" and "string" variables.
